@@ -23,3 +23,11 @@ How to Do
     3. Once u see the message close the pop up
 
 
+Pro:
+1. One Device for both web server and USB emulation
+
+Cons:
+1. This version was done as proof of concept, So it take 3 minutes to host the Pizero server
+
+Video Link
+https://www.youtube.com/watch?v=2NCoceX7zKU
