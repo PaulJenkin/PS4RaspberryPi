@@ -35,8 +35,8 @@ Implementation Notes:
 2. Added a Web server which hosts the file
 3. Made use of the Piz Zero as mass storage simulation functionality to inject the USB at th right time
 
-Video Link
+*Video Link*
 https://www.youtube.com/watch?v=2NCoceX7zKU
 
-Image V2 Link
+*Image V2 Link*
 https://1fichier.com/?a18u3gu203qbr9qp56af
