@@ -27,7 +27,7 @@ Following is the Write up on how to use the Raspbery Pi Zero W to host a web ser
 **Cons**:
 1. V2 of the image is more slim version , right now the boot up time is at 1 minute 30 second
 
-Changes on Upcoming versions
+**Changes on Upcoming versions**
 1. Will use the exploit ChendoChap/pOOBs4 and push the bin using socket connection
 
 **Implementation Notes**:
