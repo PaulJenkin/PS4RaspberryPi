@@ -5,7 +5,7 @@ Following is the Write up on how to use the Raspbery Pi Zero W to host a web ser
 1. Raspbery Pi Zero W 
 2. Sd Card minimum of 16 GB
 
-**How to Do V3**
+**How to Setup V3 Image**
 1. Restore the image into a SD card (using software like balenaetcher)
 2. Place SD card into the slot of the Raspbery Pi Zero W 
 3. Connect the two micro usb cable from the pi to PS4
@@ -48,3 +48,4 @@ https://www.youtube.com/watch?v=2NCoceX7zKU
 https://1fichier.com/?a18u3gu203qbr9qp56af
 
 **Image V3 Link**
+https://1fichier.com/?2oi5d6j8fpsp2u3qu8vl
