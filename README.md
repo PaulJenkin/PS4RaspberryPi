@@ -14,7 +14,7 @@ Following is the Write up on how to use the Raspbery Pi Zero W to host a web ser
     1. PS4 Network Connection -> Wifi -> Manual setup
     2. In PS4 find the Wifi Network called PIZero and connect to it using password as password
     3. Rest all value set to Automatic
-6. PS4 -> Browser -> visit https://7.7.7.1
+6. PS4 -> Browser -> visit http://7.7.7.1
 7. Click on load jail break and wait
     1. It will notify WEBKit is sucessfull -> click on ok and wait
     2. A popup will thrown Say USB emulation staterted and wait for ps4 pop up
