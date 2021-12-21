@@ -31,7 +31,7 @@ Following is the Write up on how to use the Raspbery Pi Zero W to host a web ser
 
 **Changes on V4**
 1. Using buildroot to create Embedded OS
-2. Use Two micro usb cable for no wait time loads instantaneously, work with one cable on data port as well 
+2. Use Two micro usb cable for no wait time loads instantaneously, works with one cable on data port as well 
 
 
 **Implementation Notes**:
@@ -48,5 +48,5 @@ https://www.youtube.com/watch?v=2NCoceX7zKU
 
 
 **creedits to**
-1. sleirsgoevy
+1. Sleirsgoevy
 2. Chendochap
