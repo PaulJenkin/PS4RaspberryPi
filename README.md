@@ -1,4 +1,4 @@
-# PS4Pizero
+# PS4PaspberryPi
 Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) to host a web server and a USB emulator
 
 **Things required**
