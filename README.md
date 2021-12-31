@@ -53,10 +53,10 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 3. Made use of the Piz Zero as mass storage simulation functionality to inject the USB at th right time
 
 
-**Image V6 Links**
-1. Pi Zero W  - https://1fichier.com/?73abvegre7hzhpx6xw1v
-2. Pi Zero 2 W - https://1fichier.com/?js18ca9khak6cforfsih
-3. Pi 4 B - https://1fichier.com/?d9j3vvnk6v5hc9s07z5e
+**Image V6 -rebuild Links**
+1. Pi Zero W  - https://1fichier.com/?62q7z9cgcgl5q8fwf7jw
+2. Pi Zero 2 W - https://1fichier.com/?k6u01vt2xiszwx9d81m0
+3. Pi 4 B - https://1fichier.com/?51k6g0lfzm6mo0mxbhqg
 
 **Image V5 Links**
 1. Pi Zero W  - https://1fichier.com/?th25b546df6sop94dd4t
