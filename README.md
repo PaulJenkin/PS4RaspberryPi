@@ -8,20 +8,32 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 **How to Setup**
 1. Restore the image into a SD card (using software like balenaetcher)
 2. Place SD card into the slot of the Raspbery Pi
-3. Connect the two micro usb cable from the pi to PS4
-4. Power up the PS4
-5. One Time Setup
+3. For Pi Zero W and Pi Zero 2 W (connect one micro USB cable from pi to PS4, second cable not needed)
+4. For Pi 4 B (connect one USB C cable from pi to PS4)
+5. Power up the PS4
+6. One Time Setup
     1. PS4 Network Connection -> Wifi -> Manual setup
     2. In PS4 find the Wifi Network called PiZero and connect to it using password as password
     3. Rest all value set to Automatic
-6. PS4 -> Browser -> visit http://7.7.7.1
-7. Click on load jail break and wait
+7. PS4 -> Browser -> visit http://7.7.7.1
+8. Click on load jail break and wait
     1. It will notify WEBKit is sucessfull -> click on ok and wait
     2. A popup will thrown Say USB emulation staterted and wait for ps4 pop up
     3. Once the usb message dissaper then click ok
     4. Hen will load autmatically
 
-   
+**How to make the Pi as client in local network**
+1. Main page -> Rasbberry Pi (button)
+2. Select the desired Wifi network ID
+3. Fill in the password for the network
+4. Click connect to WiFi button
+5. Restart the PS4 (which aslo restarts the Pi)
+6. In PS4 update the Wifi Netwrok to you local
+7. Find the Pi's IP address in your local network (by visisting Router Page , host name would be PiPS4Client, for ex 192.168.0.124)
+8. PS4 -> Browser -> visit http://192.168.0.124
+9. Jailbreak
+
+  
 **Pros**:
 1. One Device for both web server and USB emulation
 2. One micro usb cable is enough to boot the device (if you are ok to wait 10 seconds after PS4 startup screen)
@@ -29,21 +41,16 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 4. Smallest size OS
 
 
-**Changes on V5**
-1. Removed all Apache modules and replaced with Nginx (in order to avoid issues in SSH access)
-2. Always use one micro usb cable on data port.
-3. The Pi loads along with PS4 it may take a 5 seconds delay to open web page
+**Changes on V6**
+1. Added option to connect the pi to local network
+2. Added option to Reboot the PI from PS4 itself
+3. SSH enabled, username : root, password: password
 
 
 **Implementation Notes**:
 1. Buildroot custom os is being used
 2. Added a Web server which hosts the file
 3. Made use of the Piz Zero as mass storage simulation functionality to inject the USB at th right time
-
-**Direction of the Next relase**
-1. Add BuildRoot configuration and Postbulish scripts for each model in GITHUB
-2. Add Samba file server which can assist in updating the JB
-3. Revise all the model to load even faster
 
 
 **Image V6 Links**
