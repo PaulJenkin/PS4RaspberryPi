@@ -46,6 +46,11 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 3. Revise all the model to load even faster
 
 
+**Image V6 Links**
+1. Pi Zero W  - https://1fichier.com/?73abvegre7hzhpx6xw1v
+2. Pi Zero 2 W - https://1fichier.com/?js18ca9khak6cforfsih
+3. Pi 4 B - https://1fichier.com/?d9j3vvnk6v5hc9s07z5e
+
 **Image V5 Links**
 1. Pi Zero W  - https://1fichier.com/?th25b546df6sop94dd4t
 2. Pi Zero 2 W - https://1fichier.com/?pwnm9gzpnmtliebgyy5h
