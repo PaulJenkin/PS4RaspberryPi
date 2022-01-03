@@ -56,7 +56,7 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 2. Added a Web server which hosts the file
 3. Made use of the Piz Zero as mass storage simulation functionality to inject the USB at th right time
 
-**Experimenta - v7** (Extended Local Network Support and DNS Server)
+**Image - v7** (Extended Local Network Support and DNS Server)
 1. Pi Zero W - https://1fichier.com/?rwdjj9vu7r10qn5947x1
 2. Pi Zero 2 W - https://1fichier.com/?r35fe3xrixvx2e1uu66y
 3. Pi 4 B - https://1fichier.com/?0jt584zqobgpclxvtpy3
