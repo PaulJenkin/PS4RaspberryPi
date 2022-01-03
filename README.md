@@ -45,7 +45,7 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 4. Smallest size OS
 
 
-**Changes on V6**
+**Changes on V7**
 1. Fixed the Issue with SPance on WIFI SSID, and & symbols
 2. Added DNS Server which redirect all PS4 related web traficc to PI
 3. Redirecting the Help page to Jailbreak
