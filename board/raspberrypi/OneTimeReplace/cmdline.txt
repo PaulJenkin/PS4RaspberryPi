@@ -1,0 +1,1 @@
+root=/dev/mmcblk0p2 rootwait quiet modules-load=dwc2 logo.nologo vt.global_cursor_default=0

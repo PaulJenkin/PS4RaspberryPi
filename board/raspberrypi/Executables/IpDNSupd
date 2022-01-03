@@ -1,0 +1,22 @@
+#!/bin/sh
+
+ipadd=`/sbin/ifconfig wlan0 | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`
+
+cmd=`ls -l /etc/customscript/S90hostapd`
+rm /etc/dnsmasq.conf
+if [ "${cmd:0:5}" == "-rwxr" ]
+then
+    printf 'interface=wlan0\ndhcp-range=7.7.7.2,7.7.7.30,255.255.255.0,24h\n\naddress=/manuals.playstation.net/'$ipadd'\naddress=/.net.playstation.net/'$ipadd'\naddress=/.ps4.update.playstation.net/'$ipadd'\naddress=/gs2.ww.prod.dl.playstation.net/'$ipadd'\naddress=/rnps-crl.dl.playstation.net/'$ipadd'\naddress=/.207.net/127.0.0.1\naddress=/.akadns.net/127.0.0.1\naddress=/.akamai.net/127.0.0.1\naddress=/.akamaiedge.net/127.0.0.1\naddress=/.cddbp.net/127.0.0.1\naddress=/.ea.com/127.0.0.1\naddress=/.edgekey.net/127.0.0.1\naddress=/.edgesuite.net/127.0.0.1\naddress=/.llnwd.net/127.0.0.1\naddress=/.playstation.com/127.0.0.1\naddress=/.playstation.net/127.0.0.1\naddress=/.playstation.org/127.0.0.1\naddress=/.ribob01.net/127.0.0.1\naddress=/.sbdnpd.com/127.0.0.1\naddress=/.scea.com/127.0.0.1\naddress=/.sonyentertainmentnetwork.com/127.0.0.1' >> /etc/dnsmasq.conf
+
+/etc/customscript/S80dnsmasq stop
+/etc/customscript/S80dnsmasq start
+/etc/customscript/S90hostapd start
+else
+    printf 'address=/manuals.playstation.net/'$ipadd'\naddress=/.net.playstation.net/'$ipadd'\naddress=/.ps4.update.playstation.net/'$ipadd'\naddress=/gs2.ww.prod.dl.playstation.net/'$ipadd'\naddress=/rnps-crl.dl.playstation.net/'$ipadd'\naddress=/.207.net/127.0.0.1\naddress=/.akadns.net/127.0.0.1\naddress=/.akamai.net/127.0.0.1\naddress=/.akamaiedge.net/127.0.0.1\naddress=/.cddbp.net/127.0.0.1\naddress=/.ea.com/127.0.0.1\naddress=/.edgekey.net/127.0.0.1\naddress=/.edgesuite.net/127.0.0.1\naddress=/.llnwd.net/127.0.0.1\naddress=/.playstation.com/127.0.0.1\naddress=/.playstation.net/127.0.0.1\naddress=/.playstation.org/127.0.0.1\naddress=/.ribob01.net/127.0.0.1\naddress=/.sbdnpd.com/127.0.0.1\naddress=/.scea.com/127.0.0.1\naddress=/.sonyentertainmentnetwork.com/127.0.0.1' >> /etc/dnsmasq.conf
+/etc/customscript/S80dnsmasq stop
+/etc/customscript/S80dnsmasq start
+
+fi
+
+rm /usr/html/404.html
+printf '<script>window.location="http://'$ipadd'";</script>' >> /usr/html/404.html
