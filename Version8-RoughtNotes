@@ -1,0 +1,30 @@
+**Gold Hen**
+    1) The Goldhen payload come from a file call payload.js, this payload JS file can be updated via
+    2) Place a new GoldHen bin under “Sdcard:/usr/html/Bin/Goldhen/”
+    3) PS4 ->  Guide / Help Menu -> GoldHen Update (button)
+    4) After thsi update the new gold hen will be used (even after restarting)
+    5) Note: Once updated the bin file will be deleted and you only have to do this if a new bin come one
+
+**How does the bin loading work**
+    1) Jailbreak
+    2) we are you the Gold Hen bin listner, first enable the option under , PS4 -> settings -> goldhen -> Binloader
+    3) Then come to PS4 -> settings -> help /guide -> choose payload button
+        1) Note: The raw bin file is being traansmitted using python code
+           
+**Other Bin Files**
+The web form dynamicall based on the bin file placed on the “Sdcard:/usr/html/Bin/”.
+So if you want a new bin of your choice, Add / remove based on your choice and visit 
+PS4 ->  Guide / Help Menu -> and looks for the new button
+
+**How Can i update the bin file**
+With Ver 8 the html folder is opened for update, So we have below choice on updating
+    1) Using a SD card reader coennec the SD card to PC and chnage it
+    2) sftp://7.7.7.1 (or static IP on ur local network)
+    a) user name: root
+    b) password: password
+
+**Version 8 Change log**
+    1) Dynamic web page based on the Bin folder
+    2) Option to update GoldHen
+    3) Automatic node discovery added – usefull when Pi is connected to local network, we can access the pi using hostname pizero.local instead of Ip address
+    4) sftp enabled, html folder read write access permitted
