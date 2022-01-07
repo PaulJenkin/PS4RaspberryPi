@@ -56,10 +56,8 @@ PS4 ->  Guide Menu -> and looks for the new button
 
 **How Can i update the bin file**
 With Ver 8 the html folder is opened for update, So we have below choice on updating
-    1) sftp://7.7.7.1 (or static IP on ur local network)
-        a) user name: root
-        b) password: password
-    2) If you run a a linux machine() - Using a SD card reader coennec the SD card to PC and chnage it
+1. sftp://7.7.7.1 (or static IP on ur local network). **username: root** and **password: password**
+4. If you run a a linux machine() - Using a SD card reader coennec the SD card to PC and chnage it
   
  
 **Pros**:
