@@ -1,9 +1,9 @@
 # PS4PaspberryPi
-Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) to host a web server and a USB emulator
+Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) to host a Web server, DNS Server and a USB emulator
 
 **Things required**
 1. Raspbery **Pi Zero W** or **Pi Zero 2 W** or **Pi 4 B**
-2. Sd Card minimum of 200 MB
+2. Sd Card minimum of 400 MB
 
 **How to Setup**
 1. Restore the image into a SD card (using software like balenaetcher)
@@ -14,7 +14,6 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 6. One Time Setup
     1. PS4 Network Connection -> Wifi -> Manual setup
     2. In PS4 find the Wifi Network called PiZero and connect to it using password as password
-       1. if it Fials come back select PiZero then try typing password again
     3. For DNS set the primary DNS as 7.7.7.1
     4. Rest all automatic values
 7. PS4 -> Browser -> visit http://7.7.7.1 **or** PS4 -> Settings -> Help
@@ -37,34 +36,57 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 10. PS4 -> Browser -> visit http://(static IP) **or** PS4 -> Settings -> Help
 11. Jailbreak
 
+**Gold Hen**
+    1) The Goldhen payload come from a file call payload.js, this payload JS file can be updated via
+    2) Place a new GoldHen bin under “Sdcard:/usr/html/Bin/Goldhen/”
+    3) PS4 ->  Guide / Help Menu -> GoldHen Update (button)
+    4) After thsi update the new gold hen will be used (even after restarting)
+    5) Note: Once updated the bin file will be deleted and you only have to do this if a new bin come one
+
+**How does the bin loading work**
+    1) Jailbreak
+    2) we are you the Gold Hen bin listner, first enable the option under , PS4 -> settings -> goldhen -> Binloader
+    3) Then come to PS4 -> settings -> guide -> choose payload button
+        1) Note: The raw bin file is being traansmitted using python code
+           
+**Other Bin Files**
+The website will form dynamicall based on the bin file placed on the “/usr/html/Bin/”.
+So if you want a new bin of your choice, Add it using sftp/sdcard update and then visit 
+PS4 ->  Guide Menu -> and looks for the new button
+
+**How Can i update the bin file**
+With Ver 8 the html folder is opened for update, So we have below choice on updating
+    1) sftp://7.7.7.1 (or static IP on ur local network)
+        a) user name: root
+        b) password: password
+    2) If you run a a linux machine() - Using a SD card reader coennec the SD card to PC and chnage it
   
+ 
 **Pros**:
-1. One Device for both web server and USB emulation
-2. One micro usb cable is enough to boot the device (if you are ok to wait 10 seconds after PS4 startup screen)
-3. You can leave the device in the PS4 itself, need not to remove and plug in again
-4. Smallest size OS
+1. One Device for both web server, dns server and USB emulation
+2. you can switch between offline and online mode , without a PC
+3. One micro usb cable is enough to boot the device
+4. You can leave the device in the PS4 itself, need not to remove and plug in again
+5. Smallest size OS and booting before PS4
 
 
-**Changes on V7**
-1. Fixed the Issue with SPance on WIFI SSID, and & symbols
-2. Added DNS Server which redirect all PS4 related web traficc to PI
-3. Redirecting the Help page to Jailbreak
+**Changes on V8**
+1. Dynamic web page based on the Bin folder
+2. Option to load bin via goldhen bin loader
+3. Option to update GoldHen
+4. Automatic node discovery added – useful when Pi is connected to local network, we can access the pi using hostname http://pizero.local instead of IP address
+5. Full support for ssh and sftp, which required to update the payloads
+6. From RaspberryPi page we can change the default root password
+7. The network page sorts the wifi list based on signal quality (the more nearer to will appear on top of the list)
+8. Fixed the issue which took longer load time on Pi4 B due to network discovery
+9. Fixed the issue which making to enter the password thrice (rng tool was missing in pizw)
+10. Boot up time of all device in various mode is less than PS4, so delay at all
+11. Shutdown option in RaspberryPi page fixed
 
-
-**Implementation Notes**:
-1. Buildroot custom os is being used
-2. Added a Web server which hosts the file
-3. Made use of the Piz Zero as mass storage simulation functionality to inject the USB at th right time
-
-**Image - v7** (Extended Local Network Support and DNS Server)
-1. Pi Zero W - https://1fichier.com/?rwdjj9vu7r10qn5947x1
-2. Pi Zero 2 W - https://1fichier.com/?r35fe3xrixvx2e1uu66y
-3. Pi 4 B - https://1fichier.com/?0jt584zqobgpclxvtpy3
-
-**Image V6 -rebuild Links**
-1. Pi Zero W  - https://1fichier.com/?62q7z9cgcgl5q8fwf7jw
-2. Pi Zero 2 W - https://1fichier.com/?k6u01vt2xiszwx9d81m0
-3. Pi 4 B - https://1fichier.com/?51k6g0lfzm6mo0mxbhqg
+**Image - v8** (At most capability, power to user)
+1. Pi Zero W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8.zip
+2. Pi Zero 2 W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/PiZ2W-v8.zip
+3. Pi 4 B - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8.zip
 
 **Video Link**
 https://www.youtube.com/watch?v=2NCoceX7zKU
