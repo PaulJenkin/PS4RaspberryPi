@@ -37,17 +37,17 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 11. Jailbreak
 
 **Gold Hen**
-    1) The Goldhen payload come from a file call payload.js, this payload JS file can be updated via
-    2) Place a new GoldHen bin under “Sdcard:/usr/html/Bin/Goldhen/”
-    3) PS4 ->  Guide / Help Menu -> GoldHen Update (button)
-    4) After thsi update the new gold hen will be used (even after restarting)
-    5) Note: Once updated the bin file will be deleted and you only have to do this if a new bin come one
+1. The Goldhen payload come from a file call payload.js, this payload JS file can be updated via
+2. Place a new GoldHen bin under “Sdcard:/usr/html/Bin/Goldhen/”
+3. PS4 ->  Guide / Help Menu -> GoldHen Update (button)
+4. After thsi update the new gold hen will be used (even after restarting)
+5. Note: Once updated the bin file will be deleted and you only have to do this if a new bin come one
 
 **How does the bin loading work**
-    1) Jailbreak
-    2) we are you the Gold Hen bin listner, first enable the option under , PS4 -> settings -> goldhen -> Binloader
-    3) Then come to PS4 -> settings -> guide -> choose payload button
-        1) Note: The raw bin file is being traansmitted using python code
+1. Jailbreak
+2. We are you the Gold Hen bin listner, first enable the option under , PS4 -> settings -> goldhen -> Binloader
+3. Then come to PS4 -> settings -> guide -> choose payload button
+4. Note: The raw bin file is being traansmitted using python code
            
 **Other Bin Files**
 The website will form dynamicall based on the bin file placed on the “/usr/html/Bin/”.
