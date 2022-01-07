@@ -3,8 +3,6 @@ TIMEOUT=30
 counter=0
 connection=0
 
-echo $(date) >> /root/offline
-
 until [ $counter -eq $TIMEOUT ]
 do
 
