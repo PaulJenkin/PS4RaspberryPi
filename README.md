@@ -84,9 +84,9 @@ With Ver 8 the html folder is opened for update, So we have below choice on upda
 11. Shutdown option in RaspberryPi page fixed
 
 **Image - v8** (At most capability, power to user)
-1. Pi Zero W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8.zip
-2. Pi Zero 2 W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/PiZ2W-v8.zip
-3. Pi 4 B - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8.zip
+1. Pi Zero W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8-Rebuilt4.zip
+2. Pi Zero 2 W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/PiZ2W-v8-Rebuilt4.zip
+3. Pi 4 B - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8-Rebuilt4.zip
 
 **Video Link**
 https://www.youtube.com/watch?v=2NCoceX7zKU
