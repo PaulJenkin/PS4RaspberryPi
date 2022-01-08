@@ -78,13 +78,16 @@ With Ver 8 the html folder is opened for update, So we have below choice on upda
 7. The network page sorts the wifi list based on signal quality (the more nearer to will appear on top of the list)
 8. Fixed the issue which took longer load time on Pi4 B due to network discovery
 9. Fixed the issue which making to enter the password thrice (rng tool was missing in pizw)
-10. Boot up time of all device in various mode is less than PS4, so delay at all
+10. Boot up time of all device in various mode is less than PS4, so no delay at all
 11. Shutdown option in RaspberryPi page fixed
 
 **Image - v8** (At most capability, power to user)
 1. Pi Zero W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/PiZW-v8-Rebuilt5.zip
 2. Pi Zero 2 W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/PiZ2W-v8-Rebuilt5.zip
 3. Pi 4 B - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8-Rebuilt5.zip
+
+**Discord Server**
+https://discord.gg/BF3kxGmA
 
 **Video Link**
 https://www.youtube.com/watch?v=2NCoceX7zKU
