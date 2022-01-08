@@ -33,7 +33,7 @@ case "$1" in
 			sleep 0.5
 			echo 0 > /sys/class/leds/led0/brightness
 			sleep 0.5
-
+			rm -f /etc/wpa_supplicant.conf
 			/bin/sh /usr/html/Resources/Router/zrun.sh
 			reboot
 		fi
