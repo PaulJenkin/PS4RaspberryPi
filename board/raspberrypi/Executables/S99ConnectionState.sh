@@ -8,13 +8,14 @@ case "$1" in
 
 		until [ $counter -eq $TIMEOUT ]
 		do
-			if echo $(iwconfig 2>/dev/null) | grep -q "ESSID:off"; then
+			if echo $(ifconfig wlan0) | grep "inet addr"; then
+				connection=1
+				break
+
+			else
 				sleep 1
 				counter=$((counter+1))
 				connection=0
-			else
-				connection=1
-				break
 			fi
 		done
 
