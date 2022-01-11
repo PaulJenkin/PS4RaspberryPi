@@ -65,12 +65,16 @@
             }
 			
 			function updatetrainer(){
-				$.ajax({url:"updatetrainer.php", success:function(result){
-				alert('Update Finished!');}
-			})
-			} 
+				$.ajax({url:"updatetrainer.php",
+						context: document.body,
+						success: function(){
+							alert('Trainer-Update finished!'),
+							location.reload();}
+				})
+			}
+
             </script>
-			
+
         <div class="jumbotron transparent" style="margin: auto;height: 50%; width: 50%; border-radius: 10px; border: 5px black solid; border-color: yellow; background-position: center;background-repeat: no-repeat; background-size: 100%;backdrop-filter: blur(10px);">
             <div class="d-flex justify-content-center">
                 <input id="ip" class="form-control" type="text" placeholder="localhost or 127.0.0.1" style="max-width :320px">
@@ -145,10 +149,9 @@
                 <div class="modal-content">
                     <div class="modal-header bg-darker">
                         <h4 class="modal-title">Update</h4>
-                        <button type="button" class="close" data-dismiss="modal">×</button>
                     </div>
                     <div class="modal-body">
-                        Update takes approximately 5 min to finish. Don´t close Browser!<br>
+                        Update takes approximately 30-60 seconds to finish. Wait for notification.<br>
 						
                     </div>
                 </div>
