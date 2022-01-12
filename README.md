@@ -8,16 +8,17 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 **How to Setup**
 1. Restore the image into a SD card (using software like balenaetcher)
 2. Place SD card into the slot of the Raspbery Pi
-3. For Pi Zero W and Pi Zero 2 W (connect one micro USB cable from pi to PS4, second cable not needed)
-4. For Pi 4 B (connect one USB C cable from pi to PS4)
-5. Power up the PS4
-6. One Time Setup
+3. For Pi Zero W and Pi Zero 2 W (connect one micro USB cable from Raspberry Pi USB port to PS4, second cable not needed)
+![image](https://user-images.githubusercontent.com/2664857/149229582-18780783-6d47-4d12-89ab-1898da33e1c7.png)
+5. For Pi 4 B (connect one USB C cable from pi to PS4)
+6. Power up the PS4
+7. One Time Setup
     1. PS4 Network Connection -> Wifi -> Manual setup
     2. In PS4 find the Wifi Network called PiZero and connect to it using password as password
     3. For DNS set the primary DNS as 7.7.7.1
     4. Rest all automatic values
-7. PS4 -> Browser -> visit http://7.7.7.1 **or** PS4 -> Settings -> Help
-8. Click on load jail break and wait
+8. PS4 -> Browser -> visit http://7.7.7.1 **or** PS4 -> Settings -> Help
+9. Click on load jail break and wait
     1. It will notify WEBKit is sucessfull -> click on ok and wait
     2. A popup will thrown Say USB emulation staterted and wait for ps4 pop up
     3. Once the usb message dissaper then click ok
