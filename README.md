@@ -12,13 +12,12 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 4. For Pi 4 B (connect one USB C cable from pi to PS4)
 5. Power up the PS4
 6. One Time Setup
-
     1. PS4 Network Connection -> Wifi -> Manual setup
     2. In PS4 find the Wifi Network called PiZero and connect to it using password as password
     3. For DNS set the primary DNS as 7.7.7.1
     4. Rest all automatic values
-8. PS4 -> Browser -> visit http://7.7.7.1 **or** PS4 -> Settings -> Help
-9. Click on load jail break and wait
+7. PS4 -> Browser -> visit http://7.7.7.1 **or** PS4 -> Settings -> Help
+8. Click on load jail break and wait
     1. It will notify WEBKit is sucessfull -> click on ok and wait
     2. A popup will thrown Say USB emulation staterted and wait for ps4 pop up
     3. Once the usb message dissaper then click ok
