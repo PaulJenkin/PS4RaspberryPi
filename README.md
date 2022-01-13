@@ -81,11 +81,6 @@ With Ver 8 the html folder is opened for update, So we have below choice on upda
 10. Boot up time of all device in various mode is less than PS4, so no delay at all
 11. Shutdown option in RaspberryPi page fixed
 
-**Image - v8** (At most capability, power to user)
-1. Pi Zero W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/PiZW-v8-Rebuilt5.zip
-2. Pi Zero 2 W - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/PiZ2W-v8-Rebuilt5.zip
-3. Pi 4 B - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8-Rebuilt5.zip
-
 **Discord Server**
 https://discord.gg/58N4Y4KZbB 
 
