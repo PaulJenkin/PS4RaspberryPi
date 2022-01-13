@@ -87,7 +87,7 @@ With Ver 8 the html folder is opened for update, So we have below choice on upda
 3. Pi 4 B - https://github.com/PaulJenkin/PS4RaspberryPi/releases/download/untagged-5611f3d1924ac4e7314d/Pi4B-v8-Rebuilt5.zip
 
 **Discord Server**
-https://discord.gg/58N4Y4KZbB
+https://discord.gg/58N4Y4KZbB 
 
 **Video Link**
 https://www.youtube.com/watch?v=2NCoceX7zKU
