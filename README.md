@@ -8,7 +8,7 @@ Following is the Write up on how to use the Raspbery Pi (Zero W, Zero 2 W, 4 B) 
 **How to Setup**
 1. Restore the image into a SD card (using software like balenaetcher)
 2. Place SD card into the slot of the Raspbery Pi
-3. For Pi Zero W and Pi Zero 2 W (connect one micro USB cable from pi to PS4, second cable not needed)
+3. For Pi Zero W and Pi Zero 2 W (connect from the USB marked Pi USB port to PS4, second cable not needed) ![image](https://user-images.githubusercontent.com/2664857/149229582-18780783-6d47-4d12-89ab-1898da33e1c7.png)
 4. For Pi 4 B (connect one USB C cable from pi to PS4)
 5. Power up the PS4
 6. One Time Setup
