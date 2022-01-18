@@ -97,7 +97,7 @@ Method 2
 1.	Auto Jailbreak - Ps4 Key Stroke till JB page
 2.	Utilization of the remaining space of SD card as USB
 3.	Pi 4 B – Ethernet to local network
-4.	Issue on the Idle Time, Update Trainer 
+4.	Fixed Issue on the Idle Time, Update Trainer 
 5.	Removed cache on all pages , as it was breaking the live options
 
 **Discord Server** https://discord.gg/58N4Y4KZbB
