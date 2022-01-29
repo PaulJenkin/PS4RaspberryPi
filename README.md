@@ -9,25 +9,29 @@ Things required
 2.	Place SD card into the slot of the Raspberry Pi
 3.	For Pi Zero W and Pi Zero 2 W (connect from the USB marked Pi USB port to PS4, second cable not needed) 
   ![image](https://user-images.githubusercontent.com/2664857/149229582-18780783-6d47-4d12-89ab-1898da33e1c7.png)
+<br />Be sure to use a USB-Data-Cable!
 4.	For Pi 4 B (connect one USB C cable from pi to PS4)
 5.	Power up the PS4
 6.	One Time Setup
-    i.PS4 Network Connection -> Wifi -> Manual setup
-    ii.	In PS4 find the Wifi Network called PiZero and connect to it using password as password
-    iii. For DNS set the primary DNS as 7.7.7.1
-    iv.	Rest all automatic values
+    i.PS4 Network Connection -> Wifi -> Manual setup  
+    ii.	In PS4 find the Wifi Network called PiZero and connect to it using password as password  
+    iii. For DNS set the primary DNS as 7.7.7.1  
+    iv.	Rest all automatic values  
 7.	PS4 -> Browser -> visit http://7.7.7.1 or PS4 -> Settings -> Help
-8.	Click on load jail break and wait
-    i. It will notify WEBKit is successful -> click on ok and wait
-    ii.	A popup will be thrown saying USB emulation started and wait for ps4 pop up
-    iii. Once the USB message disappear then click ok
-    iv.	Gold Hen will load automatically
+8.	Click on load jail break and wait  
+    I. It will notify WEBKit is successful -> click on ok and wait  
+    II.	A popup will be thrown saying USB emulation started and wait for ps4 pop up  
+    ![usb](https://user-images.githubusercontent.com/20742243/151671687-3a16a6db-a56e-45d8-bc13-9ff76598949d.png)<br />
+    If Popup won't appear, check your USB-Cable<br /><br />
+    III. Once the USB message disappear then click ok  
+    IV.	Gold Hen will load automatically
     
 **How to make the Pi as client in local network**
 1.	Main page -> Raspberry Pi (button)
 2.	Select the desired Wifi Network ID and fill in the password for the network
 3.	Click Connect to WiFi button , wait for 5 sec
 4.	Click Reboot Pi button
+
 5.	Find the Pi's IP address in your local network (by visiting Router Page , host name would be pizero, for ex 192.168.0.124) and make it static , so that same IP assign always
 6.	PS4 Network Connection -> Wifi -> Manual setup
 7.	Select you local network
